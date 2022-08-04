@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.border{
+    border: 3px solid #000;
+    Text-align: center;
+}
+header{
+    width: 100vw;
+    height: 200px;
+    background-color: powderblue;
+}
+nav{
+    width: 100vw;
+    height: 150px;
+    background-color: powderblue;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    float: left;
+}
+nav ul a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: thick 40px; 
+}
+nav ul a:visited{
+    color: #f00;
+}
+nav ul a:hover{
+    color: burlywood;
+    background-color: #fff;
+}
+nav u a:active{
+    color: cadetblue;
+    background-color: #000;
+}
+nav ul a li{
+    display: incine-block;
+    margin: 15px 15px
+}
+
+.hero-image {
+    height: 10%;
+    width: 100%
+}
+main {
+    background-color: powderblue;
+    width: 100vw;
+}
+footer {
+    background-color: powderblue;
+    width: 100vw;
+    }
+
+.footerimg {
+    width: 25%;
+    height: auto;
+    list-style-type: inherit;
+}
+.Logo {
+    Height: 65%;
+    Width: 20%;
+    float: right;
+}
